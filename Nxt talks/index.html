@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Video Carousel: Future of Engineers</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"/>
+</head>
+<body>
+<div id="fullpage">
+  <div class="home">
+    <div class="d-flex flex-row">
+      <h1 class="mainhead">Nxt</h1>
+      <h1 class="mainhead1"><spam">Talks</spam></h1> 
+      <p class="mainpara">by NxtWave</p>
+      <div id="text-slider" class="text-slider">
+        <div class="text-slide active">
+          <h2>Welcome to Our Website</h2>
+          <p>We provide the best solutions for your business.</p>
+        </div>
+        <div class="text-slide">
+          <h2>Fast & Reliable</h2>
+          <p>Our services are fast, secure, and reliable for all industries.</p>
+        </div>
+        <div class="text-slide">
+          <h2>24/7 Support</h2>
+          <p>We are here to assist you anytime, anywhere.</p>
+        </div>
+      </div>
+      
+    </div>   
+   </div>
+  
+  <div class="container mt-5">
+    <div class="carousel-wrapper">
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="7000">
+        <div class="carousel-inner">
+  
+          <div class="carousel-item active">
+            <div class="video-container">
+              <iframe src="https://www.youtube.com/embed/YDfL0TfKS3M?autoplay=1&mute=1&controls=0&modestbranding=1&rel=0"
+                      allow="autoplay" allowfullscreen></iframe>
+            </div>
+          </div>
+  
+          <div class="carousel-item">
+            <div class="video-container">
+              <iframe src="https://www.youtube.com/embed/pDpwlapFss8?autoplay=1&mute=1&controls=0&modestbranding=1&rel=0"
+                      allow="autoplay" allowfullscreen></iframe>
+            </div>
+          </div>
+  
+          <div class="carousel-item">
+            <div class="video-container">
+              <iframe src="https://www.youtube.com/embed/BKe0tIy4u0k?autoplay=1&mute=1&controls=0&modestbranding=1&rel=0"
+                      allow="autoplay" allowfullscreen></iframe>
+            </div>
+          </div>
+  
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="sectionicons">
+  <h1 class="iconsname">Our Speakers come from<br>Your Favourite company</h1>
+  <div class="logo-slider">
+    <!-- Row 1 -->
+    <div class="logo-track-row">
+      <div class="logo-track">
+        <!-- Duplicate logo set for seamless scroll -->
+        <img src="apple.svg" alt="Apple" />
+        <img src="google.svg" alt="Google" />
+        <img src="amazon.svg" alt="Amazon" />
+        <img src="netflix.svg" alt="Netflix" />
+        <img src="nike.svg" alt="Nike" />
+        <img src="youtube.svg" alt="YouTube" />
+        <img src="spotify.svg" alt="Spotify" />
+        <img src="visa.png" alt="Visa" />
+        <img src="bmw.svg" alt="BMW" />
+        <img src="tesla.svg" alt="Tesla" />
+  
+        <!-- Repeat for seamless loop -->
+        <img src="apple.svg" alt="Apple" />
+        <img src="google.svg" alt="Google" />
+        <img src="amazon.svg" alt="Amazon" />
+        <img src="netflix.svg" alt="Netflix" />
+        <img src="nike.svg" alt="Nike" />
+        <img src="youtube.svg" alt="YouTube" />
+        <img src="spotify.svg" alt="Spotify" />
+        <img src="visa.png" alt="Visa" />
+        <img src="bmw.svg" alt="BMW" />
+        <img src="tesla.svg" alt="Tesla" />
+      </div>
+    </div>
+  </br>
+</br>
+    <!-- Row 2 -->
+    <div class="logo-track-row">
+      <div class="logo-track reverse">
+        <img src="whatsapp.svg" alt="WhatsApp" />
+        <img src="linkedin.png" alt="LinkedIn" />
+        <img src="meta.png" alt="Meta" />
+        
+        <img src="airbnb.svg" alt="Airbnb" />
+        <img src="paypal.svg" alt="PayPal" />
+        <img src="ebay.svg" alt="eBay" />
+        <img src="microsoft.svg" alt="Microsoft" />
+        
+  
+        <!-- Repeat for seamless loop -->
+        <img src="whatsapp.svg" alt="WhatsApp" />
+        <img src="linkedin.png" alt="LinkedIn" />
+        <img src="meta.png" alt="Meta" />
+        
+        <img src="airbnb.svg" alt="Airbnb" />
+        <img src="paypal.svg" alt="PayPal" />
+        <img src="ebay.svg" alt="eBay" />
+        <img src="microsoft.svg" alt="Microsoft" />
+        
+      </div>
+    </div>
+  </div>
+  
+  
+</div>
+<div id="sectionTrainerpage">
+  <div class="traineerpage">
+
+    <div class="container py-4">
+      
+      <!-- Main Heading -->
+      <div class="text-center mb-4">
+        <h2 class="fw-bold text-white">Learn from Top Tech Leaders</h2>
+      </div>
+  
+      <div class="d-flex flex-wrap gap-2 justify-content-center mb-4">
+        <button class="btn-filter active" onclick="showTrending(this)">🔥 Trending</button>
+        <button class="btn-filter" onclick="showCarousel('tech', this)">Tech</button>
+        <button class="btn-filter" onclick="showCarousel('career', this)">Career</button>
+        <button class="btn-filter" onclick="showCarousel('cxo', this)">CXO</button>
+        <button class="btn-filter" onclick="showCarousel('productivity', this)">Productivity</button>
+        <button class="btn-filter" onclick="showCarousel('gsoc', this)">GSOC</button>
+        <button class="btn-filter" onclick="showCarousel('panel', this)">Panel</button>
+      </div>
+    
+      <!-- Trending Static Cards -->
+      <div class="row" id="trending-cards">
+        <!-- Card 1 -->
+        <div class="col-md-4 mb-4">
+          <div class="card card-custom">
+            <div class="card-img-top">
+              <img src="traineer images/sandeep.png" alt="sandeep" class="img-fluid w-100">
+            </div>
+            <div class="card-body">
+              <button class="btn-trailer">Trailer ⓘ</button>
+              <h5 class="card-title text-light">An Engineering Manager at Uber Teaches Programming</h5>
+              <p class="text-light mb-1">🕒 45:17 Mins</p>
+              <p class="mb-1 text-light"><strong>Sandeep Gorthi</strong></p>
+              <p class="text-light mb-2">Engineering Manager at Uber</p>
+              <a href="#" class="text-primary text-decoration-none">What You will Learn →</a>
+            </div>
+          </div>
+        </div>
+    
+        <!-- Card 2 -->
+        <div class="col-md-4 mb-4">
+          <div class="card card-custom">
+            <div class="card-img-top">
+              <img src="traineer images/pritesh.png" alt="pritesh" class="img-fluid w-100">
+            </div>
+            <div class="card-body">
+              <button class="btn-trailer">Trailer ⓘ</button>
+              <h5 class="card-title text-light">A Sr. Recruiter at Amazon Teaches Acing Interviews</h5>
+              <p class="text-light mb-1">🕒 41:07 Mins</p>
+              <p class="mb-1 text-light"><strong>Pritesh Malode</strong></p>
+              <p class="text-light mb-2">Senior Recruiter at Amazon</p>
+              <a href="#" class="text-primary text-decoration-none">What You will Learn →</a>
+            </div>
+          </div>
+        </div>
+    
+        <!-- Card 3 -->
+        <div class="col-md-4 mb-4">
+          <div class="card card-custom">
+            <div class="card-img-top">
+              <img src="traineer images/sanjay.png" alt="sanjay" class="img-fluid w-100">
+            </div>
+            <div class="card-body">
+              <button class="btn-trailer">Trailer ⓘ</button>
+              <h5 class="card-title text-light">A Global CEO Teaches Mastering Time Management</h5>
+              <p class="text-light mb-1">🕒 56:32 Mins</p>
+              <p class="mb-1 text-light"><strong>Sanjay Sehgal</strong></p>
+              <p class="text-light mb-2">Chairman & CEO at Msys Technologies</p>
+              <a href="#" class="text-primary text-decoration-none">What You will Learn →</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+      <!-- Carousel -->
+      <div id="carousel-wrapper " style="display:none;">
+        <div id="contentCarousel" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner" id="carousel-inner">
+            <!-- Slides will be injected here -->
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#contentCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#contentCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </button>
+        </div>
+      </div>
+    
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+      const allCards = {
+        tech: [
+          { img: 'traineer images/sandeep.png', title: 'Uber Teaches Programming', name: 'Sandeep Gorthi', role: 'Engineering Manager at Uber', duration: '45:17' },
+          { img: 'traineer images/pritesh.png', title: 'Amazon Acing Interviews', name: 'Pritesh Malode', role: 'Senior Recruiter at Amazon', duration: '41:07' },
+          { img: 'traineer images/sanjay.png', title: 'Mastering Time Management', name: 'Sanjay Sehgal', role: 'CEO at Msys Technologies', duration: '56:32' },
+          { img: 'traineer images/sandeep.png', title: 'Advanced Coding Practices', name: 'Sandeep Gorthi', role: 'Uber Engineer', duration: '38:11' }
+        ]
+        // Add more categories like "career", "productivity" if needed
+      };
+    
+      function showTrending(button) {
+        document.querySelectorAll('.btn-filter').forEach(b => b.classList.remove('active'));
+        button.classList.add('active');
+        document.getElementById('trending-cards').style.display = 'flex';
+        document.getElementById('carousel-wrapper').style.display = 'none';
+      }
+    
+      function showCarousel(category, button) {
+        document.querySelectorAll('.btn-filter').forEach(b => b.classList.remove('active'));
+        button.classList.add('active');
+    
+        const cards = allCards[category];
+        const carouselInner = document.getElementById('carousel-inner');
+        carouselInner.innerHTML = '';
+    
+        for (let i = 0; i < cards.length; i += 3) {
+          const slideItems = cards.slice(i, i + 3).map(card => `
+            <div class="col-md-4">
+              <div class="card card-custom">
+                <div class="card-img-top">
+                  <img src="${card.img}" alt="${card.name}" class="img-fluid w-100">
+                </div>
+                <div class="card-body">
+                  <button class="btn-trailer">Trailer ⓘ</button>
+                  <h5 class="card-title text-light">${card.title}</h5>
+                  <p class="text-light mb-1">🕒 ${card.duration} Mins</p>
+                  <p class="mb-1 text-light"><strong>${card.name}</strong></p>
+                  <p class="text-light mb-2">${card.role}</p>
+                  <a href="#" class="text-primary text-decoration-none">What You will Learn →</a>
+                </div>
+              </div>
+            </div>`).join('');
+    
+          carouselInner.innerHTML += `
+            <div class="carousel-item ${i === 0 ? 'active' : ''}">
+              <div class="row">${slideItems}</div>
+            </div>`
+        }
+    
+        document.getElementById('trending-cards').style.display = 'none';
+        document.getElementById('carousel-wrapper').style.display = 'block';
+      }
+    </script>
+    
+  
+  </div>
+  
+</div>
+<div id="#sectionreview">
+  <div class="review">
+    <section class="testimonial-section">
+      <h2>Students Say,<br><span>It’s a Blockbuster!</span></h2>
+      <div class="feedback-count">😄 25000+ Happy Feedbacks</div>
+    
+      <div class="carousel-container">
+        <button class="nav prev">&#10094;</button>
+    
+        <div class="carousel-track" id="carouselTrack">
+          <!-- Card 1 -->
+          <div class="testimonial-card">
+            <img src="review images/rahul.png" alt="Rahul" class="avatar"/>
+            <div class="user-info">
+              <strong>Rahul Gunturi</strong> · 1st<br/>
+              <span>Fellow at CCBP 4.0 academy | NxtWave</span>
+            </div>
+            <p>
+              These podcasts are <strong>beneficial to us</strong> as it acts as a bridge...
+              <a href="#">Read More on LinkedIn</a>
+            </p>
+            <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" class="linkedin-icon" alt="LinkedIn" />
+          </div>
+    
+          <!-- Card 2 -->
+          <div class="testimonial-card">
+            <img src="review images/sai.png" alt="Sai" class="avatar"/>
+            <div class="user-info">
+              <strong>Sai Rohith</strong> · 1st<br/>
+              <span>Fellow at CCBP 4.0 academy | NxtWave</span>
+            </div>
+            <p>
+              As a CCBP 4.0 Academy student, I feel lucky to access top-notch experts...
+              <a href="#">Read More on LinkedIn</a>
+            </p>
+            <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" class="linkedin-icon" alt="LinkedIn" />
+          </div>
+    
+          <!-- Card 3 -->
+          <div class="testimonial-card">
+            <img src="review images/neha.png" alt="Neha" class="avatar"/>
+            <div class="user-info">
+              <strong>Neha Panakanapalli</strong><br/>
+              <span>Fellow at CCBP 4.0 academy | NxtWave</span>
+            </div>
+            <p>
+              These podcasts are really special from both student and manager's perspectives...
+              <a href="#">Read More on LinkedIn</a>
+            </p>
+            <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" class="linkedin-icon" alt="LinkedIn" />
+          </div>
+          
+          <div class="testimonial-card">
+            <img src="review images/sanjay.png" alt="sanjay" class="avatar"/>
+            <div class="user-info">
+              <strong>Sanjay Sehgal
+               . 1st</strong><br/>
+              <span>Fellow at CCBP 4.0 academy | NxtWave</span>
+            </div>
+            <p>
+              The podcast with Sanjay Sehgal, CEO of MSys Technologies, is the best and incredibly valuable. I took nine pages of notes and ...
+              <a href="#">Read More on LinkedIn</a>
+            </p>
+            <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" class="linkedin-icon" alt="LinkedIn" />
+          </div>
+
+          <div class="testimonial-card">
+            <img src="review images/rupesh.png" alt="rupesh" class="avatar"/>
+            <div class="user-info">
+              <strong>Rupesh Reddy Loka
+                
+               . 1st</strong><br/>
+              <span>Fellow at CCBP 4.0 academy | NxtWave</span>
+            </div>
+            <p>
+              After Gowtham sir's podcast, I got really motivated with some of his insights and experiences and also noted some points! He enlightened ...
+              <a href="#">Read More on LinkedIn</a>
+            </p>
+            <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" class="linkedin-icon" alt="LinkedIn" />
+          </div>
+
+          <div class="testimonial-card">
+            <img src="review images/gunda.png" alt="gunda" class="avatar"/>
+            <div class="user-info">
+              <strong>Gunda Vamshi
+                
+               . 1st</strong><br/>
+              <span>Fellow at CCBP 4.0 academy | NxtWave</span>
+            </div>
+            <p>
+              Very excellent and learnt many insights from the podcast. I really thank to Archita ma'am for delivering such great insights in the podcast. ...
+              <a href="#">Read More on LinkedIn</a>
+            </p>
+            <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" class="linkedin-icon" alt="LinkedIn" />
+          </div>
+
+          <div class="testimonial-card">
+            <img src="review images/nafiya.png" alt="nafiya" class="avatar"/>
+            <div class="user-info">N S Nafiya
+              
+               . 1st</strong><br/>
+              <span>Fellow at CCBP 4.0 academy | NxtWave</span>
+            </div>
+            <p>
+              I learned about Amazon's 4C's of hiring. The podcast provided great insights into the recruiter's perspective and the company's evaluation ...
+              <a href="#">Read More on LinkedIn</a>
+            </p>
+            <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" class="linkedin-icon" alt="LinkedIn" />
+          </div>
+    
+          <!-- Add more testimonial-card blocks here as needed -->
+        </div>
+    
+        <button class="nav next">&#10095;</button>
+      </div>
+    </section>
+    
+    <script>
+      const track = document.getElementById("carouselTrack");
+      const prevBtn = document.querySelector(".nav.prev");
+      const nextBtn = document.querySelector(".nav.next");
+    
+      const cards = track.querySelectorAll(".testimonial-card");
+      const card = cards[0];
+    
+      const visibleCards = 3; // Always show 3 cards
+      const cardStyle = window.getComputedStyle(card);
+      const gap = parseInt(cardStyle.marginRight || 20); // Flex gap
+      const cardWidth = card.offsetWidth + gap;
+    
+      let currentIndex = 0;
+    
+      function updateCarousel() {
+        const maxIndex = cards.length - visibleCards;
+        currentIndex = Math.max(0, Math.min(currentIndex, maxIndex));
+        const translateX = currentIndex * cardWidth;
+        track.style.transform = `translateX(-${translateX}px)`;
+      }
+    
+      nextBtn.addEventListener("click", () => {
+        currentIndex++;
+        updateCarousel();
+      });
+    
+      prevBtn.addEventListener("click", () => {
+        currentIndex--;
+        updateCarousel();
+      });
+    
+      window.addEventListener("resize", () => {
+        updateCarousel(); // Recalculate on resize
+      });
+    </script>
+    
+  
+    <script src="script.js"></script>
+  </div>
+</div>
+<div id="#sectionpodcast">
+  <div class="podcast">
+    <section class="hero-section">
+      <div class="hero-left">
+        <h1>NxtWave's Empowering Podcast Series<br>to Shape your Dream Career</h1>
+        <ul class="features">
+          <li>🎙️ 100+ Podcasts</li>
+          <li>🪙 Each worth ₹2000/-</li>
+          <li>🔥 FREE for NxtWave Academy students</li>
+        </ul>
+        <a href="#" class="cta-button">Claim Free Access</a>
+      </div>
+      <div class="hero-right">
+        <img src="https://i.imgur.com/vfVOu4P.png" alt="Mic Illustration" />
+      </div>
+    </section>
+  </div>
+</div>
+<div id="#sectionregister">
+  <div class="register">
+    <div class="register-container">
+      <div class="left">
+        <div>Claim Your</div>
+        <div><strong>Free Access to a Podcast</strong></div>
+      </div>
+      <div class="right">
+        <input type="text" id="name" placeholder="Your Name" />
+        <input type="text" id="phone" placeholder="+91 Enter 10 Digit Mobile Number" />
+        <div id="recaptcha-container"></div>
+        <button onclick="sendOTP()">Get OTP</button>
+  
+        <div id="otp-section">
+          <input type="text" id="otp" placeholder="Enter OTP" />
+          <button onclick="verifyOTP()">Verify OTP</button>
+        </div>
+  
+        <div id="message"></div>
+        <div id="recaptcha-container"></div>
+      </div>
+    </div>
+  
+  </div>
+</div>
+<div id="#sectionfooter">
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-column">
+        <img src="nxtwavelogo.png" alt="NxtWave Logo" class="logo" />
+        <h4>Reach Us</h4>
+        <p>📧 support@nxtwave.tech</p>
+        <div class="social-icons">
+          <a href="https://facebook.com" target="_blank" class="icon facebook" aria-label="Facebook">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="https://instagram.com" target="_blank" class="icon instagram" aria-label="Instagram">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="https://twitter.com" target="_blank" class="icon twitter" aria-label="Twitter">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="https://linkedin.com" target="_blank" class="icon linkedin" aria-label="LinkedIn">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a href="https://youtube.com" target="_blank" class="icon youtube" aria-label="YouTube">
+            <i class="fab fa-youtube"></i>
+          </a>
+        </div>
+        
+      </div>
+  
+      <div class="footer-column">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Academy</a></li>
+          <li><a href="#">Intensive</a></li>
+          <li><a href="#">Hire with us</a></li>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Reviews</a></li>
+        </ul>
+      </div>
+  
+      <div class="footer-column">
+        <h4>Payment Methods</h4>
+        <div class="payment-icons">
+          <div class="payment-icon">
+            <img src="images/visa1.png" alt="Visa">
+          </div>
+          <div class="payment-icon">
+            <img src="images/mastercard11.png" alt="Mastercard">
+          </div>
+          <div class="payment-icon">
+            <img src="images/mastercard12.png" alt="Mastercard">
+          </div>
+          
+          <div class="payment-icon">
+            <img src="images/UPI-Color.svg" alt="UPI">
+          </div>
+          <div class="payment-icon">
+            <img src="images/rupay.png" alt="RuPay">
+          </div>
+          <div class="payment-icon">
+            <img src="images/netbanking.png" alt="Net Banking">
+          </div>
+        </div>
+        
+        
+        <p>
+          📍 NxtWave, WeWork Rajapushpa Summit,<br />
+          Nanakramguda Rd, Financial District,<br />
+          Manikonda Jagir, Telangana 500032
+        </p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>
+        <a href="#">Privacy Policy</a> |
+        <a href="#">Cookie Policy</a> |
+        <a href="#">Terms and Conditions</a> |
+        <a href="#">Grievance Redressal</a> |
+        <a href="#">Corporate Information</a>
+      </p>
+    </div>
+  </footer>
+  
+</div>
+<!-- Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-auth-compat.js"></script>
+<script src="app.js"></script>
+
+<script>
+  const slides = document.querySelectorAll('.text-slide');
+  let currentSlide = 0;
+
+  setInterval(() => {
+    slides[currentSlide].classList.remove('active');
+    currentSlide = (currentSlide + 1) % slides.length;
+    slides[currentSlide].classList.add('active');
+  }, 3000);
+</script>
+
+
+
+
+</body>
+
+</html>
